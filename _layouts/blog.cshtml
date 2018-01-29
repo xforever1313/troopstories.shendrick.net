@@ -17,11 +17,9 @@ layout : layout
                 @{
                     foreach( var post in @Model.Site.Posts )
                     {
-                        @:
-                        <li>
+                        @:<li>
                             @:<a href="@post.Url">@post.Title</a> - @post.Bag["description"]
-                            @:
-                        </li>
+                        @:</li>
                     }
                 }
             </ul>

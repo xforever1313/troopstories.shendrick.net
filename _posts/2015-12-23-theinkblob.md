@@ -5,7 +5,7 @@ author: "Seth Hendrick"
 comments: true
 category: "Summer Camp"
 description: "Why you don't swim why camp isn't in session"
-tags: ['2001', Blob, Boyhaven, ghost, ghost stories, Ink, Lake, Pond, Summer Camp, water, webelos, Year 2001]
+tags: [2001, Blob, Boyhaven, ghost, ghost stories, Ink, Lake, Pond, Summer Camp, water, webelos, Year 2001]
 ---
 
 To keep in the spirit of scary camp stories, I decided to tell the tale of the Boyhaven Ink Blob.  This story was told to us during my second, and final, year at Camp Boyhaven.  Enjoy!

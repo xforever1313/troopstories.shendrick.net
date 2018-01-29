@@ -1,0 +1,30 @@
+﻿---
+layout : layout
+---
+
+@inherits RazorEngine.Templating.TemplateBase<Pretzel.Logic.Templating.Context.PageContext>
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">All Posts:</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @{
+                    foreach( var post in @Model.Site.Posts )
+                    {
+                        @:
+                        <li>
+                            @:<a href="@post.Url">@post.Title</a> - @post.Bag["description"]
+                            @:
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</article>

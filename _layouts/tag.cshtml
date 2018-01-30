@@ -18,15 +18,13 @@ layout : layout
     <div class="row">
         <article class="col-md-12">
             <ul>
-                @{
-                    foreach( var cat in @Model.Site.Tags )
+                @foreach( var cat in @Model.Site.Tags )
+                {
+                    if( cat.Name.Equals( tagName ) )
                     {
-                        if( cat.Name.Equals( tagName ) )
+                        foreach( var post in cat.Posts )
                         {
-                            foreach( var post in cat.Posts )
-                            {
-                                @:<li><a href="@post.Url">@post.Title</a></li>
-                            }
+                            @:<li><a href="@post.Url">@post.Title</a> - @post.Bag["description"]</li>
                         }
                     }
                 }

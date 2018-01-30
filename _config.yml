@@ -9,3 +9,7 @@ author: Seth Hendrick
 title: Troop 53 Stories
 url: https://troop53stories.shendrick.net
 contact: seth@shendrick.net
+
+exclude:
+ - .gitignore
+ - .git

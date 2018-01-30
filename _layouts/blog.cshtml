@@ -4,7 +4,7 @@ layout : layout
 
 @inherits RazorEngine.Templating.TemplateBase<Pretzel.Logic.Templating.Context.PageContext>
 
-<article id="page-inner">
+<div id="page-inner">
     <div class="row">
         <div class="col-md-12">
             <h1 class="page-head-line">All Posts:</h1>
@@ -12,7 +12,7 @@ layout : layout
     </div>
 
     <div class="row">
-        <div class="col-md-12">
+        <article class="col-md-12">
             <ul>
                 @{
                     foreach( var post in @Model.Site.Posts )
@@ -23,6 +23,6 @@ layout : layout
                     }
                 }
             </ul>
-        </div>
+        </article>
     </div>
-</article>
+</div>

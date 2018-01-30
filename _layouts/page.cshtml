@@ -3,7 +3,7 @@ layout: layout
 ---
 @inherits RazorEngine.Templating.TemplateBase<Pretzel.Logic.Templating.Context.PageContext>
 
-<article id="page-inner">
+<div id="page-inner">
     <div class="row">
         <div class="col-md-12">
             <h1 class="page-head-line">@Model.Page.Title</h1>
@@ -13,9 +13,9 @@ layout: layout
     <!-- Main Content -->
     <div class="row">
         <div class="col-md-12">
-            <div>
+            <article>
                 @Raw( Model.Content )
-            </div>
+            </article>
         </div>
     </div>
-</article>
+</div>

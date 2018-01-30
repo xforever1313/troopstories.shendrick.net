@@ -21,14 +21,12 @@
         if( tagBuilder.Length > 0 )
         {
             tagBuilder = tagBuilder.Remove( tagBuilder.Length - 1, 1 );
-            @:
-            <meta name="keywords" content="@tagBuilder.ToString()" />
+            @:<meta name="keywords" content="@tagBuilder.ToString()" />
         }
 
         if( Model.Page.Bag.ContainsKey( "description" ) )
         {
-            @:
-            <meta name="description" content="@(Model.Page.Bag["description"])" />
+            @:<meta name="description" content="@(Model.Page.Bag["description"])" />
         }
     }
 
@@ -90,7 +88,7 @@ owa_cmds.push(['trackDomStream']);
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <h1 id="main-title" style="padding:0.5em;">Seth Hendrick's Website!</h1>
+            <h1 id="main-title" style="padding:0.5em;">@Model.Site.Title</h1>
         </nav>
 
         <!-- Side Bar -->
@@ -115,13 +113,11 @@ owa_cmds.push(['trackDomStream']);
                             {
                                 if( page.Bag.ContainsKey( "icon" ) )
                                 {
-                                    @:
-                                    <li><a href="@page.Url"><i class="fa @page.Bag["icon"]"></i>@page.Title</a></li>
+                                    @:<li><a href="@page.Url"><i class="fa @page.Bag["icon"]"></i>@page.Title</a></li>
                                 }
                                 else
                                 {
-                                    @:
-                                    <li><a href="@page.Url"><i class="fa fa-circle-o"></i>@page.Title</a></li>
+                                    @:<li><a href="@page.Url"><i class="fa fa-circle-o"></i>@page.Title</a></li>
                                 }
                             }
                         }
@@ -138,8 +134,7 @@ owa_cmds.push(['trackDomStream']);
                                     {
                                         if( category.Name.Equals( page.Bag["category"] ) )
                                         {
-                                            @:
-                                            <li><a href="@(page.Url)"><i class="fa fa-circle-o"></i>@(category.Name)</a></li>
+                                            @:<li><a href="@(page.Url)"><i class="fa fa-circle-o"></i>@(category.Name)</a></li>
                                         }
                                     }
                                 }
@@ -150,7 +145,7 @@ owa_cmds.push(['trackDomStream']);
                         <a href="/atom.xml"><i class="fa fa-rss"></i>ATOM Feed</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-users"></i>Follow Me!<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-users"></i>Follow Us!<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="https://github.com/xforever1313/troopstories.shendrick.net"><i class="fa fa-github"></i>Fork us on GitHub</a>
@@ -170,11 +165,11 @@ owa_cmds.push(['trackDomStream']);
     <!-- Footer -->
     <div id="footer-sec">
         <div>
-            &copy; @DateTime.Now.Year <a href="https://troopstories.shendrick.net">Seth Hendrick</a> | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a> |
-            <span>Page generated on @(DateTime.UtcNow.ToString( "R" ))</span> | Opinions are Mine
+            &copy; @DateTime.Now.Year <a href="https://troop53stories.shendrick.net">Seth Hendrick</a> | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a> |
+            <span>Page generated on @(DateTime.UtcNow.ToString( "R" ))</span> | Opinions are Mine | Not affiliated with Boy Scouts of America
         </div>
         <div>
-            Posts on <a href="https://troopstories.shendrick.net">shendrick.net</a> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            Posts on <a href="https://troop53stories.shendrick.net">https://troop53stories.shendrick.net</a> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
         <div>
             <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">

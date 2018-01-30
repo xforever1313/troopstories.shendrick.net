@@ -8,7 +8,7 @@ layout : layout
     object catName = Model.Page.Bag["category"];
 }
 
-<article id="page-inner">
+<div id="page-inner">
     <div class="row">
         <div class="col-md-12">
             <h1 class="page-head-line">Category: @catName</h1>
@@ -16,7 +16,7 @@ layout : layout
     </div>
 
     <div class="row">
-        <div class="col-md-12">
+        <article class="col-md-12">
             <ul>
                 @{
                     foreach( var cat in @Model.Site.Categories )
@@ -25,13 +25,12 @@ layout : layout
                         {
                             foreach( var post in cat.Posts )
                             {
-                                @:
-                                <li><a href="@post.Url">@post.Title</a></li>
+                                @:<li><a href="@post.Url">@post.Title</a></li>
                             }
                         }
                     }
                 }
             </ul>
-        </div>
+        </article>
     </div>
-</article>
+</div>

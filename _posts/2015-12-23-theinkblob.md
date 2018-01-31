@@ -4,7 +4,7 @@ title: "The Ink Blob"
 author: "Seth Hendrick"
 comments: true
 category: "Summer Camp"
-description: "Why you don't swim why camp isn't in session"
+description: "Why you don't swim when camp isn't in session"
 tags: [2001, Blob, Boyhaven, ghost, ghost stories, Ink, Lake, Pond, Summer Camp, water, webelos, Year 2001]
 ---
 

@@ -333,3 +333,8 @@ ul#filters {
     .image.avatar img {
       border-radius: 100%;
       width: 100%; }
+
+.alignleft, div.alignleft {
+    float: left;
+    margin: 5px 15px 15px 0;
+}

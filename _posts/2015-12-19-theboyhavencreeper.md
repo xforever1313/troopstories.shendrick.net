@@ -8,6 +8,8 @@ description: "The first time I was scared while camping"
 tags: [2000, Boyhaven, Creeper, ghost, ghost stories, legs, person_rodger, story, Summer Camp, trolley, webelos, Year 2000]
 ---
 
+<img src="/static/img/badges/CampBoyhaven_2000.png" alt="2000 Boyhaven Badge" height="250" width="250" class="alignleft"/>
+
 My first post here will be about the first ghost story I heard on my first trip to Boy Scout summer camp.  It scared all of us.
 
 It was my first year at Summer Camp as a first-year Webelos at Camp Boyhaven.  It was nighttime and we were around the camp fire.  One of the assistant scoutmasters then told us the story that would cause us to not sleep that night.  That story was the story of the Boyhaven Creeper.

@@ -8,6 +8,8 @@ description: "Why you don't swim when camp isn't in session"
 tags: [2001, Blob, Boyhaven, ghost, ghost stories, Ink, Lake, Pond, Summer Camp, water, webelos, Year 2001]
 ---
 
+<img src="/static/img/badges/CampBoyhaven_2001.png" alt="2000 Boyhaven Badge" class="alignleft"/>
+
 To keep in the spirit of scary camp stories, I decided to tell the tale of the Boyhaven Ink Blob.  This story was told to us during my second, and final, year at Camp Boyhaven.  Enjoy!
 
 ------------------

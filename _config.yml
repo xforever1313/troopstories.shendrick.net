@@ -14,3 +14,5 @@ disqus_shortname: troop53stories
 exclude:
  - .gitignore
  - .git
+ - .vs
+ - .vscode

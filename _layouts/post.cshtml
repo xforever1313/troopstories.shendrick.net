@@ -80,11 +80,11 @@ layout: layout
                 <div id="disqus_thread"></div>
                 <script>              
                 var disqus_config = function () {
-                    this.page.url = 'troop53stories.shendrick.net';
+                    this.page.url = '@Model.Site.Config["url"].ToString()@Model.Page.Url';
                 };
                 (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
-                s.src = 'https://troop53stories.disqus.com/embed.js';
+                s.src = 'https://@(Model.Site.Config["disqus_shortname"].ToString()).disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
                 })();

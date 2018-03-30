@@ -6,6 +6,7 @@ comments: true
 category: "Stories from Meetings"
 description: "What happens when your den leader isn't afraid to bend the rules a bit."
 tags: [1999, Paper, Airplane, Contest, Bear, Den 2, Pack 253, Meeting, Year 1999]
+people: [Seth]
 ---
 
 I think I was a bear cub when this story happened.

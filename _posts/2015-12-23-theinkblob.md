@@ -6,6 +6,7 @@ comments: true
 category: "Summer Camp"
 description: "Why you don't swim when camp isn't in session"
 tags: [2001, Blob, Boyhaven, ghost, ghost stories, Ink, Lake, Pond, Summer Camp, water, webelos, Year 2001]
+people: []
 ---
 
 <img src="/static/img/badges/CampBoyhaven_2001.png" alt="2000 Boyhaven Badge" class="alignleft"/>

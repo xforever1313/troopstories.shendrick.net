@@ -18,3 +18,24 @@ Take a peek at the Google Maps linked above.  You will notice on the northeaster
 In 2006, I believe, a fresh wave of scouts crossed over from Pack 253.  I was patrol leader at the time of the Flaming Arrows Patrol.  A young scout, we'll call him Wayne, was added to my patrol.  Wayne, along with all the new scouts, would walk out to the tip of the peninsula, and play what they called "stick wars".  I never participated in stick wars, but from what I understood, the scouts would pick up sticks they found at the tip of the peninsula, and... well... hopefully they didn't wack each other with them.
 
 This game was the latest obsession with all of the new scouts.  When they weren't eating or swimming they were on the tip of the peninsula, playing stick wars... much to the annoyance of the older scouts.  Don't get me wrong, us older scouts were fine with the younger scouts leaving us alone.  What was annoying was when we had to do chores and they didn't come to help.
+
+I believe the converstion went something like this.
+
+ * Me: "Wayne, can you please come help us wash dishes?"
+ * Wayne: "Nahh, I'm going to go play stick wars!"
+ * Me: "Its our Patrol's turn to clean, please help us!"
+ * Wayne: "Kids should play, not work!"
+
+He then walked away.  I was obviously mad.  However, my assistant scoutmaster at the time, who was also Wayne's father said "Don't worry Seth, when he's a patrol leader, he'll also have an annoying kid not following orders."
+
+Years passed, and I became and assistant scoutmaster myself.  In 2010, we went to Scout Island again, and I knew this would be my last trip to Scout Island, as the following year I would depart for RIT.  As usual, we paddled out to the island, set up our campsite, and had all kinds of fun.  Stick wars was STILL a thing, even after all of those years.  The younger scouts still went out to the tip of the peninsula for it as well.
+
+During this trip, Wayne was acting patrol leader for one of the patrols.  During lunch, it was Wayne's patrol that had to clean up.  While cleaning up, Wayne asked one of the younger scouts to help clean up, but he said "Nah, I'm going to go play stick wars!" and ran off.  Wayne, holding a pot in one hand, just starred as the young scout ran off.
+
+I and Wanye's dad saw this and were laughing. "Hey Wayne!  How's it feel!?" we said.  Wayne rolled his eyes, and scrubbed the pot.
+
+It took several years for it to happen, but I finally had my revenge on Wayne for not helping me clean up.  And all I had to do was wait for Wayne to grow up to have stubborn younger scouts.
+
+Wayne's dad was a wise man.
+
+Let this me a lesson to any new scouts:  if your patrol leader asks you to scrub a pot, scrub the dang pot.  Althrough you won't know the feeling of being ignored yet, you will when you're a patrol leader.  And if the scoutmasters remember you ignoring orders when you are younger, they may ignore your cries for help when your underlings ignore you when you are older.

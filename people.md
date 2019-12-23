@@ -13,6 +13,14 @@ The way this page is organized is by grade-school graduating class, and my exten
 
 All adult leaders, meanwhile, have "Mr." or "Mrs." in front of their names.
 
+## Generation -2
+
+### Steve
+
+Steve was 2 years older than me.  He became Eagle a couple years after I joined.  His Eagle project was the first one I helped work on.
+
+He was a leader when I first joined, but he was also a strict one.
+
 ## Generation 0
 
 ### Seth (me)
@@ -50,3 +58,13 @@ He became Eagle a few years before I did.  He was SPL for one year, and he was a
 Kevin was a three-season athlete, but he still made time to go to troop meetings.  To the younger scouts, he was intimidating, so they listened to him.  In my opinion, he was one of the most effective SPLs we had in our troop while I was there.
 
 He also stuck around after turning 18 as an assistant scoutmaster.
+
+### Newton
+
+Newton... while he is okay today, he wasn't very well liked him back in scouts.  He was one of those people who, I believe, were forced to join scouts by his parents.  He quit a few years after joining.
+
+## Adult Leaders
+
+### Mr. Night
+
+Mr. Night was the second scoutmaster I had.

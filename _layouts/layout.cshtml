@@ -6,6 +6,12 @@
 
 @inherits RazorEngine.Templating.TemplateBase<Pretzel.Logic.Templating.Context.PageContext>
 
+@{
+    Console.WriteLine(
+        "Generating ID '" + @Model.Page.Id + "' (" + @Model.Page.Title + ") to '" + @Model.Page.OutputFile + "'"
+    );
+}
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>

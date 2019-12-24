@@ -5,7 +5,7 @@ author: "Seth Hendrick"
 comments: true
 category: "Camping Trips"
 description: "A story that took 5 years to tell."
-tags: [2006, 2010, Scout Island, ASM, Year 2006, Year 2010, Wayne]
+tags: [2006, 2010, Scout Island, ASM, Year 2006, Year 2010, Wayne, Sacandaga Lake]
 people: [Seth, Wayne]
 ---
 

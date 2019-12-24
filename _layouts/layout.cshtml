@@ -27,8 +27,10 @@
         if( tagBuilder.Length > 0 )
         {
             tagBuilder = tagBuilder.Remove( tagBuilder.Length - 1, 1 );
-            @:<meta name="keywords" content="@tagBuilder.ToString()" />
+            tagBuilder.Insert( 0, ",", 1 );
         }
+
+        @:<meta name="keywords" content="Boy Scout,Troop 53,Stories@(tagBuilder.ToString())" />
 
         if( Model.Page.Bag.ContainsKey( "description" ) )
         {

@@ -3,6 +3,7 @@ layout : page
 title : Search for Stories
 comments: false
 icon: fa fa-search
+nav_index: 4
 ---
 
 Search for Stories:

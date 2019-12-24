@@ -2,7 +2,8 @@
 layout: page
 title: People
 comments: false
-icon: fas fa-users
+icon: fas fa-id-card
+nav_index: 3
 ---
 
 ## Overview

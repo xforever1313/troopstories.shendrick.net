@@ -4,6 +4,7 @@ title: Privacy Policy
 description: "Privacy Policy"
 comments: false
 icon: "fas fa-lock"
+nav_index: 5
 ---
 
 # Who we are

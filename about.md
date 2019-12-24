@@ -3,6 +3,7 @@ layout: page
 title: About this site
 comments: false
 icon: fa-question-circle-o
+nav_index: 1
 ---
 
 I was involved in the Boy Scouts for many years.  I started as a Tiger Cub in first grade in 1997.  I crossed over to Boy Scout sometime in 2002, and got my Eagle Scout award in 2009.  I then stayed on as an Assistant Scoutmaster for two more years before moving away for college.

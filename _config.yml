@@ -16,3 +16,4 @@ exclude:
  - .git
  - .vs
  - .vscode
+ - README.md

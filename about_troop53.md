@@ -3,6 +3,7 @@ layout: page
 title: About Troop 53
 comments: false
 icon: fa-info
+nav_index: 2
 ---
 
 Troop 53 has been a part of the Castleton-Schodack community in New York State since 1924.

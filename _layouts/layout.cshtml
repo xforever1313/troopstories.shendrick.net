@@ -1,5 +1,6 @@
 @using System
 @using System.Collections.Generic
+@using System.Linq
 @using System.Text
 @using Pretzel.Logic.Templating.Context
 @using Page = Pretzel.Logic.Templating.Context.Page
@@ -89,27 +90,6 @@
                     <li>
                         <a href="/index.html"><i class="fa fa-home"></i>Home</a>
                     </li>
-                    @{
-                        List<string> ignorePages = new List<string>() { "/", "/atom.xml", "/rss.xml", "/posts", "/sitemap.xml" };
-                        foreach( Page page in Model.Site.Pages )
-                        {
-                            if(
-                                ( ignorePages.Contains( @page.Id ) == false ) &&
-                                ( string.IsNullOrEmpty( @page.Id ) == false ) &&
-                                ( @page.Id.Contains( ".well-known" ) == false ) // Don't include lets encrypt stuff.
-                            )
-                            {
-                                if( page.Bag.ContainsKey( "icon" ) )
-                                {
-                                    @:<li><a href="@page.Url"><i class="fa @page.Bag["icon"]"></i>@page.Title</a></li>
-                                }
-                                else
-                                {
-                                    @:<li><a href="@page.Url"><i class="fa fa-circle-o"></i>@page.Title</a></li>
-                                }
-                            }
-                        }
-                    }
                     <li>
                         <a href="/posts.html"><i class="fa fa-file-text"></i>Stories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -129,6 +109,23 @@
                             }
                         </ul>
                     </li>
+                    @{
+                        IEnumerable<Page> pagesToIndex = Model.Site.Pages.Where(
+                            p => p.Bag.ContainsKey( "nav_index" )
+                        ).OrderBy( p => int.Parse( p.Bag["nav_index"].ToString() ) );
+
+                        foreach( Page page in pagesToIndex )
+                        {
+                            if( page.Bag.ContainsKey( "icon" ) )
+                            {
+                                @:<li><a href="@page.Url"><i class="fa @page.Bag["icon"]"></i>@page.Title</a></li>
+                            }
+                            else
+                            {
+                                @:<li><a href="@page.Url"><i class="fa fa-circle-o"></i>@page.Title</a></li>
+                            }
+                        }
+                    }
                     <li>
                         <a href="/atom.xml"><i class="fa fa-rss"></i>ATOM Feed</a>
                     </li>

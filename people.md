@@ -10,7 +10,7 @@ nav_index: 3
 
 This is a quick overview about the people that were in my troop.  For privacy reasons, all of their names are different than what they are in real life.  However, the names are consistent across all stories.  So "Bob" in one story is the same "Bob" as in all other stories.
 
-The way this page is organized is by grade-school graduating class, and my extension, the year we joined scouts.  "Generation 0" means that the person was the same age as me (i.e. we were in the same school year).  "Generation 1" means that the person is a year younger than me (i.e. they were in the school year after me).  "Generation 2" mean that the person is two years younger than me, etc.  "Generation -1" means that the person is a year older than me, while "Generation -2" means that the person is 2 years older than me, etc.
+The way this page is organized is by grade-school graduating class, and by extension, the year we joined scouts.  "Generation 0" means that the person was the same age as me (i.e. we were in the same school year).  "Generation 1" means that the person is a year younger than me (i.e. they were in the school year after me).  "Generation 2" mean that the person is two years younger than me, etc.  "Generation -1" means that the person is a year older than me, while "Generation -2" means that the person is 2 years older than me, etc.
 
 All adult leaders, meanwhile, have "Mr." or "Mrs." in front of their names.
 

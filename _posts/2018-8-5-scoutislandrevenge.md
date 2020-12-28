@@ -9,7 +9,7 @@ tags: [2006, 2010, Scout Island, ASM, Year 2006, Year 2010, Wayne, Sacandaga Lak
 people: [Seth, Wayne]
 ---
 
-In the middle of the [Great Sacandaga Lake](https://en.wikipedia.org/wiki/Great_Sacandaga_Lake), there is an island that is named [Scout Island](http://www.trcscouting.org/News/scoutislandinformation).  No, really, that's its name.  Even check [Google Maps](https://www.google.com/maps/place/Scout+Island/@43.0904926,-74.2150431,1518m/data=!3m1!1e3!4m13!1m7!3m6!1s0x89de589f61d62151:0xb1996dd83d247f09!2sScout+Island!3b1!8m2!3d43.0909064!4d-74.2137437!3m4!1s0x89de589f61d62151:0xb1996dd83d247f09!8m2!3d43.0909064!4d-74.2137437) if you don't believe me.
+In the middle of the [Great Sacandaga Lake](https://en.wikipedia.org/wiki/Great_Sacandaga_Lake), there is an island that is named [Scout Island](http://www.trcscouting.org/News/scoutislandinformation).  No, really, that's its name.  Even check [Google Maps](https://www.google.com/maps/place/Scout+Island/@@43.0904926,-74.2150431,1518m/data=!3m1!1e3!4m13!1m7!3m6!1s0x89de589f61d62151:0xb1996dd83d247f09!2sScout+Island!3b1!8m2!3d43.0909064!4d-74.2137437!3m4!1s0x89de589f61d62151:0xb1996dd83d247f09!8m2!3d43.0909064!4d-74.2137437) if you don't believe me.
 
 Almost every year, Troop 53 would paddle canoes to the northeastern side of the island and camp on the beach there.  We would canoe, swim, fish, or walk around the island.
 

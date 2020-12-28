@@ -8,12 +8,19 @@ tag_pages_layout: tag
 author: Seth Hendrick
 title: Troop 53 Stories
 url: https://troop53stories.shendrick.net
+urlnohttp: troop53stories.shendrick.net
 contact: seth@shendrick.net
+
+
 disqus_shortname: troop53stories
 
 exclude:
  - .gitignore
  - .git
+ - .gitmodules
+ - .tgitconfig
  - .vs
  - .vscode
+ - build.cake
+ - tools
  - README.md

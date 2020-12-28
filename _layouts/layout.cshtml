@@ -5,8 +5,6 @@
 @using Pretzel.Logic.Templating.Context
 @using Page = Pretzel.Logic.Templating.Context.Page
 
-@inherits RazorEngine.Templating.TemplateBase<Pretzel.Logic.Templating.Context.PageContext>
-
 @{
     Console.WriteLine(
         "Generating ID '" + @Model.Page.Id + "' (" + @Model.Page.Title + ") to '" + @Model.Page.OutputFile + "'"
@@ -114,15 +112,15 @@
                             p => p.Bag.ContainsKey( "nav_index" )
                         ).OrderBy( p => int.Parse( p.Bag["nav_index"].ToString() ) );
 
-                        foreach( Page page in pagesToIndex )
+                        foreach( Page thePage in pagesToIndex )
                         {
-                            if( page.Bag.ContainsKey( "icon" ) )
+                            if( thePage.Bag.ContainsKey( "icon" ) )
                             {
-                                @:<li><a href="@page.Url"><i class="fa @page.Bag["icon"]"></i>@page.Title</a></li>
+                                @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
                             }
                             else
                             {
-                                @:<li><a href="@page.Url"><i class="fa fa-circle-o"></i>@page.Title</a></li>
+                                @:<li><a href="@thePage.Url"><i class="fa fa-circle-o"></i>@thePage.Title</a></li>
                             }
                         }
                     }
@@ -133,7 +131,7 @@
                         <a href="#"><i class="fa fa-users"></i>Follow Us!<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="https://github.com/xforever1313/troopstories.shendrick.net"><i class="fa fa-github"></i>Fork us on GitHub</a>
+                                <a href="@Model.Site.Config["github"]" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-github"></i>Fork us on GitHub</a>
                             </li>
                         </ul>
                     </li>
@@ -150,11 +148,11 @@
     <!-- Footer -->
     <div id="footer-sec">
         <div>
-            &copy; @DateTime.Now.Year <a href="https://troop53stories.shendrick.net">Seth Hendrick</a> | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a> |
+            &copy; @DateTime.Now.Year <a href="https://shendrick.net">Seth Hendrick</a> | Design By : <a href="http://www.binarytheme.com/" target="_blank" rel="noopener noreferrer nofollow">BinaryTheme.com</a> |
             <span>Page generated on @(DateTime.UtcNow.ToString( "R" ))</span> | Opinions are Mine | Not affiliated with Boy Scouts of America
         </div>
         <div>
-            Posts on <a href="https://troop53stories.shendrick.net">https://troop53stories.shendrick.net</a> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            Posts on <a href="/index.html">">@Model.Site.Config["url"]</a> are licensed under a <a rel="license noopener noreferrer nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
         <div>
             <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">

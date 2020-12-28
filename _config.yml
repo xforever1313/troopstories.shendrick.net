@@ -23,4 +23,5 @@ exclude:
  - .vscode
  - build.cake
  - tools
+ - .timeline.txt
  - README.md

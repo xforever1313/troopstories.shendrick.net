@@ -3,6 +3,7 @@ layout: page
 title: Home
 description: "Troop 53 Stories!"
 comments: false
+pageindex: 0
 ---
 
 ## Welcome!

@@ -79,6 +79,47 @@
         </nav>
 
         <!-- Side Bar -->
+        @{
+            List<string> ignorePages = new List<string>() { "/", "/posts" };
+            List<Page> aboutPages = new List<Page>();
+            List<Page> otherPages = new List<Page>();
+            foreach( Page thePage in Model.Site.Pages )
+            {
+                if( thePage.Bag.ContainsKey( "layout" ) && "aboutpage".Equals( thePage.Bag["layout"] ) )
+                {
+                    aboutPages.Add( thePage );
+                }
+                else if(
+                    ( ignorePages.Contains( @thePage.Id ) == false ) &&
+                    ( string.IsNullOrEmpty( @thePage.Id ) == false ) &&
+                    ( @thePage.Id.Contains( ".well-known" ) == false ) && // Don't include lets encrypt stuff.
+                    ( "nil".Equals( thePage.Bag["layout"] ) == false )
+                )
+                {
+                    otherPages.Add( thePage );
+                }
+            }
+
+            int Compare( Page left, Page right )
+            {
+                const string key = "pageindex";
+                if( left.Bag.ContainsKey( key ) == false )
+                {
+                    throw new KeyNotFoundException(
+                        left.Id + " needs " + key
+                    );
+                }
+                else if ( right.Bag.ContainsKey(key) == false )
+                {
+                    throw new KeyNotFoundException(
+                        right.Id + " needs " + key
+                    );
+                }
+                return left.Bag[key].ToString().CompareTo( right.Bag[key].ToString() );
+            }
+            aboutPages.Sort( Compare );
+            otherPages.Sort( Compare );
+        }
         <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
@@ -89,7 +130,23 @@
                         <a href="/index.html"><i class="fa fa-home"></i>Home</a>
                     </li>
                     <li>
-                        <a href="/posts.html"><i class="fa fa-file-text"></i>Stories<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-question-circle"></i>About<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            @foreach( var thePage in aboutPages )
+                            {
+                                if( thePage.Bag.ContainsKey( "icon" ) )
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                                }
+                                else
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa fa-circle-o"></i>@thePage.Title</a></li>
+                                }
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-file-text"></i>Stories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li><a href="/posts.html"><i class="fa fa-circle-o"></i>All Stories</a></li>
                             @foreach( var category in Model.Site.Categories )
@@ -107,31 +164,28 @@
                             }
                         </ul>
                     </li>
-                    @{
-                        IEnumerable<Page> pagesToIndex = Model.Site.Pages.Where(
-                            p => p.Bag.ContainsKey( "nav_index" )
-                        ).OrderBy( p => int.Parse( p.Bag["nav_index"].ToString() ) );
-
-                        foreach( Page thePage in pagesToIndex )
+                    @foreach( var thePage in otherPages )
+                    {
+                        if( thePage.Bag.ContainsKey( "icon" ) )
                         {
-                            if( thePage.Bag.ContainsKey( "icon" ) )
-                            {
-                                @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
-                            }
-                            else
-                            {
-                                @:<li><a href="@thePage.Url"><i class="fa fa-circle-o"></i>@thePage.Title</a></li>
-                            }
+                            @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                        }
+                        else
+                        {
+                            @:<li><a href="@thePage.Url"><i class="fa fa-circle-o"></i>@thePage.Title</a></li>
                         }
                     }
-                    <li>
-                        <a href="/atom.xml"><i class="fa fa-rss"></i>ATOM Feed</a>
-                    </li>
                     <li>
                         <a href="#"><i class="fa fa-users"></i>Follow Us!<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="@Model.Site.Config["github"]" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-github"></i>Fork us on GitHub</a>
+                            </li>
+                            <li>
+                                <a href="/atom.xml"><i class="fa fa-rss"></i>ATOM Feed</a>
+                            </li>
+                            <li>
+                                <a href="/rss.xml"><i class="fa fa-rss"></i>RSS Feed</a>
                             </li>
                         </ul>
                     </li>

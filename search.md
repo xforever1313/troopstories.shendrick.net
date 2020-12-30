@@ -3,7 +3,7 @@ layout : page
 title : Search for Stories
 comments: false
 icon: fa fa-search
-nav_index: 4
+pageindex: 4
 ---
 @using Pretzel.Logic.Templating.Context
 Search for Stories:

@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: aboutpage
 title: Privacy Policy
 description: "Privacy Policy"
 comments: false
 icon: "fas fa-lock"
-nav_index: 5
+pageindex: 5
 ---
 @using Pretzel.Logic.Templating.Context
 @Include( "privacy.md", Model, typeof( PageContext ) )

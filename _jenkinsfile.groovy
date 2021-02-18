@@ -40,6 +40,7 @@ pipeline
                 {
                     image 'mcr.microsoft.com/dotnet/sdk:3.1'
                     args "-e HOME='${env.WORKSPACE}'"
+                    reuseNode true
                 }
             }
             stages

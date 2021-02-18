@@ -1,21 +1,10 @@
 @Library( "X13JenkinsLib" )_
 
-def workspacePath = null;
-
-node('master')
-{
-    workspacePath = env.WORKSPACE;
-}
-
 pipeline
 {
     agent
     {
-        docker
-        {
-            image 'mcr.microsoft.com/dotnet/sdk:3.1'
-            args "-e HOME='${workspacePath}'"
-        }
+        label "master"
     }
     environment
     {
@@ -42,22 +31,36 @@ pipeline
                 checkout scm;                  
             }
         }
-    
-        stage( 'prepare' )
+
+        stage( 'In Docker' )
         {
-            steps
+            agent
             {
-                sh 'dotnet tool update Cake.Tool --tool-path ./Cake'
-                sh './Cake/dotnet-cake ./checkout/build.cake --showdescription'
+                docker
+                {
+                    image 'mcr.microsoft.com/dotnet/sdk:3.1'
+                    args "-e HOME='${env.WORKSPACE}'"
+                }
             }
-        }
-    
-        stage( 'build' )
-        {
-            steps
+            stages
             {
-                sh './Cake/dotnet-cake ./checkout/build.cake --target=build_pretzel'
-                sh './Cake/dotnet-cake ./checkout/build.cake --target=generate'
+                stage( 'prepare' )
+                {
+                    steps
+                    {
+                        sh 'dotnet tool update Cake.Tool --tool-path ./Cake'
+                        sh './Cake/dotnet-cake ./checkout/build.cake --showdescription'
+                    }
+                }
+            
+                stage( 'build' )
+                {
+                    steps
+                    {
+                        sh './Cake/dotnet-cake ./checkout/build.cake --target=build_pretzel'
+                        sh './Cake/dotnet-cake ./checkout/build.cake --target=generate'
+                    }
+                }
             }
         }
     

@@ -1,6 +1,6 @@
 string target = Argument( "target", "taste" );
 
-const string pretzelExe = "./_pretzel/src/Pretzel/bin/Debug/netcoreapp3.1/Pretzel.dll";
+const string pretzelExe = "./_pretzel/src/Pretzel/bin/Debug/net6.0/Pretzel.dll";
 const string pluginDir = "./_plugins";
 const string categoryPlugin = "./_plugins/Pretzel.Categories.dll";
 const string extensionPlugin = "./_plugins/Pretzel.SethExtensions.dll";
@@ -44,24 +44,30 @@ void BuildPretzel()
 {
     Information( "Building Pretzel..." );
 
-    DotNetCoreBuildSettings settings = new DotNetCoreBuildSettings
+    var settings = new DotNetBuildSettings
     {
         Configuration = "Debug"
     };
 
-    DotNetCoreBuild( "./_pretzel/src/Pretzel.sln", settings );
+    DotNetBuild( "./_pretzel/src/Pretzel.sln", settings );
 
     EnsureDirectoryExists( pluginDir );
 
     // Move Pretzel.Categories.
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.Categories/bin/Debug/netstandard2.1/Pretzel.Categories.*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.Categories/bin/Debug/net6.0/Pretzel.Categories.*" );
         CopyFiles( files, Directory( pluginDir ) );
     }
 
     // Move Pretzel.SethExtensions
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/netstandard2.1/Pretzel.SethExtensions.*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/Pretzel.SethExtensions.*" );
+        CopyFiles( files, Directory( pluginDir ) );
+    }
+
+    // Move ActivityPub
+    {
+        FilePathCollection files = GetFiles( "./_pretzel/src/ActivityStreams/src/KristofferStrube.ActivityStreams/bin/Debug/net6.0/KristofferStrube.ActivityStreams.*" );
         CopyFiles( files, Directory( pluginDir ) );
     }
 
@@ -89,7 +95,7 @@ void RunPretzel( string argument, bool abortOnFail )
         return line;
     }
 
-    ProcessSettings settings = new ProcessSettings
+    var settings = new ProcessSettings
     {
         Arguments = ProcessArgumentBuilder.FromString( $"\"{pretzelExe}\" {argument} --debug" ),
         Silent = false,

@@ -23,7 +23,7 @@ actpub_outbox: true
 actpub_inbox: true
 actpub_profileurl: posts.html
 actpub_username: posts
-actpub_icon: "https://www.roclongboarding.info/static/img/bsalogo.jpg"
+actpub_icon: "https://troop53stories.shendrick.net/static/img/bsalogo.jpg"
 actpub_created: "2015-12-19T00:00:00.0000000Z"
 actpub_summary: "I post whenever there's a new post on Troop 53 Stories, the site that has stories from alumni of Troop 53 in Castleton, NY!"
 actpub_publickeyfile: "activitypub/public.pem"

@@ -64,6 +64,12 @@ He also stuck around after turning 18 as an assistant scoutmaster.
 
 Newton... while he is okay today, he wasn't very well liked him back in scouts.  He was one of those people who, I believe, were forced to join scouts by his parents.  He quit a few years after joining.
 
+## Generation 1
+
+### Martin
+
+Martin was Mr Night's son.
+
 ## Adult Leaders
 
 ### Mr. Night

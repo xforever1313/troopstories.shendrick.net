@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+@using Pretzel.Logic.Templating.Context;
+
+@{
+    const int numberPosts = 20;
+    var recentPosts = Model.Site.Posts.OrderByDescending(
+        p => p.Date
+    ).Take( numberPosts );
+
+    var queue = new Queue<Page>( recentPosts.Count() );
+    foreach( var recent in recentPosts )
+    {
+        queue.Enqueue( recent );
+    }
+}
+
+@Raw( Model.Content )
+
+<h3><a href="/posts.html">View All Stories</a></h3>
+
+<h3>Recent Stories:</h3>
+
+<ul>
+@while( queue.Any() )
+{
+    var post = queue.Dequeue();
+    @:<li><strong><a href="@post.Url">@post.Title</a></strong> - @post.Bag["description"]</li>
+}
+</ul>

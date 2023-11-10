@@ -1,0 +1,42 @@
+---
+layout: post
+---
+@using System.Xml.Linq;
+@using Pretzel.SethExtensions.ImageGallery;
+@{
+    const string galleryInfoKey = "image_gallery";
+    if( Model.Bag.ContainsKey( galleryInfoKey ) == false )
+    {
+        throw new KeyNotFoundException( $"Galleries require the {galleryInfoKey} key defined" );
+    }
+
+    var imageData = Model.GetImageGalleryConfig().ToArray();
+}
+
+@Raw( Model.Content )
+
+<p>Click on an image to open the full-size image in a new tab.</p>
+@for( int i = 0; i < imageData.Length; )
+{
+    <div class="row">
+    @for( int j = 0; ( j < 2 ) && imageData.Any(); ++j )
+    {
+        var imageContext = imageData[i++];
+        <div class="col-md-6">
+            <div class="panel panel-default" style="max-width:@(imageContext.ThumbnailWidth);">
+                <div class="panel-body">
+                    <a href="@imageContext.OriginalPhotoUrl" target="_blank">
+                        <img src="@imageContext.ThumbnailUrl" alt="@imageContext.ImageInfo.SafeGetAlt()" class="thumbnailimage" />
+                    </a>
+                </div>
+                @if( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetCaption() ) == false )
+                {
+                    <div class="panel-footer">
+                        @imageContext.ImageInfo.SafeGetCaption()
+                    </div>
+                }
+            </div>
+        </div>
+    }
+    </div>
+}

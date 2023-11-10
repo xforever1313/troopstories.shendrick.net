@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/eagle_project" ThumbnailOutputDir="static/img/galleries/eagle_project/thumbnails/" ThumbnailScale="0.25">
+    <Image FileName="EagleProject3_0005.jpg">
+        <Alt>Five scouts posing for a photo.  The one of the left is holding a phone.  One in the middle is holding a shovel, ready to dig.  The one on the right is pointing a hose at the camera.</Alt>
+        <Caption>(Left to right) Jason, Mike, Ian, Alex, and Will ready to help out.</Caption>
+    </Image>
+    <Image FileName="EagleProject3_0002.jpg">
+        <Alt>Ian bending down in front of a hole holding onto a post-hole digger inside of the hole.</Alt>
+        <Caption>Ian digging a hole for one of the posts.</Caption>
+    </Image>
+    <Image FileName="EagleProject3_0001.jpg">
+        <Alt>Four scouts are working on getting posts in the ground.  The one on the left is standing with his hands in his pockets.  The one on the center left is bending down filling a bucket with water.  The one on the center right is digging with the post-hole digger.  The one to the right is staring at the camera, but holding a water bottle up to his face so you can't see him.</Alt>
+        <Caption>Scouts hard at work getting the posts in the ground.</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0006.jpg">
+        <Alt>Six people standing around a cement mixer, looking at it.</Alt>
+        <Caption>My dad getting ready to pour cement down a hole.</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0005.jpg">
+        <Alt>My dad pouring cement into a hole with another scout.  Ian is off to the right, giving the camera a dirty look.</Alt>
+        <Caption>My dad pouring cememt into a hole with another scout.  I guess I must have annoyed Ian, since he's giving me a look.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0007.jpg">
+        <Alt>Progress picture with 5 of the poles done.  Off to the right are levels leaning on a tree.  My finger is blocking the upper-right corner of the photo (oops).</Alt>
+        <Caption>Progress picture.  Ignore my finger blocking the right-corner.</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0002.jpg">
+        <Alt>My dad is on the left, walking with a shovel.  Mr N. is holding a shovel, and Will is spraying it with a hose.  Nate is to the right standing.  Two scouts are leaning against my car in the background.</Alt>
+        <Caption>All the posts are done!  Just cleaning up the path with the hose.</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0001.jpg">
+        <Alt>One scout trying to spray another scout with a hose.  The spray from the hose is not going to reach.</Alt>
+        <Caption>Scouts being sily with the hose.  I think they deserve some fun after working hard.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0009.jpg">
+        <Alt>All posts have been placed along the path.  Jason is off to the left staring at something.</Alt>
+        <Caption>The path is all clean!  Day 1 is complete!</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0002.jpg">
+        <Alt>Brett twisting an eye-hook into a post.</Alt>
+        <Caption>Brett working hard putting in the eye hooks that will hold the chain.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0008.jpg">
+        <Alt>Brett twisting an eye-hook into a different post.  All the posts behind him have eye hooks in them.</Alt>
+        <Caption>Brett still putting in the eye hooks.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0004.jpg">
+        <Alt>Chain is running between each of the posts.  Tops of the posts have been sawed off so they are the same height.</Alt>
+        <Caption>Chain has been run between the posts.  We also evened out the posts by cutting off some of the tops.</Caption>
+    </Image>
+    <Image FileName="EagleProject3_0003.jpg">
+        <Alt>Chain is running between each of the posts.</Alt>
+        <Caption>Final view of the railing, from the church side.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0006.jpg">
+        <Alt>Chain is running between each of the posts.</Alt>
+        <Caption>Final view of the railing, from the parking lot side.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0005.jpg">
+        <Alt>Chain is running between each of the posts.</Alt>
+        <Caption>Another view of the railing, from the parking lot side.</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0003.jpg">
+        <Alt>The church music director is staring at the hole, filling it with water from a hose.  Brett and Rob are walking towards him in front of a blue pickup truck.  My dad is standing behind the truck.</Alt>
+        <Caption>The tree has arrived!  The church music director is filling the hole with water.  There's my dad's rusty old blue truck!</Caption>
+    </Image>
+    <Image FileName="EagleProject2_0004.jpg">
+        <Alt>Brett raking to the left of the tree.  My finger blocks the right-most side.</Alt>
+        <Caption>Brett hard at work raking around the tree.  Ignore my finger blocking part of the shot.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0001.jpg">
+        <Alt>My dad filling the hole we dug for the tree with water.  Brett, Rob, and I stand around him holding shovels waiting.</Alt>
+        <Caption>Tree is planted, my dad is just watering it.</Caption>
+    </Image>
+    <Image FileName="EagleProject1_0003.jpg">
+        <Alt>My dad filling the hole we dug for the tree with water.  Brett, Rob, and I stand around him holding shovels waiting.</Alt>
+        <Caption>Tree is planted, my dad is still watering it.</Caption>
+    </Image>
+    <Image FileName="EagleProject3_0004.jpg">
+        <Alt>Me, Brett, and Rob holding shovels filling in a whole that contains a red tree.  They are standing on dirt, and smiling.</Alt>
+        <Caption>Brett (left), Me (middle), and Robbie (right) filling the hole for the tree.</Caption>
+    </Image>
+</ImageGallery>

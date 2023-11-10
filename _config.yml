@@ -20,7 +20,8 @@ disqus_shortname: troop53stories
 # ActivtyPub:
 actpub_directory: "activitypub"
 actpub_outbox: true
-actpub_inbox: true
+actpub_posts_per_outbox_page: 10
+actpub_inbox_url: "https://activitypub.shendrick.net/inboxservice/inbox/troop53stories"
 actpub_profileurl: posts.html
 actpub_username: posts
 actpub_icon: "https://troop53stories.shendrick.net/static/img/bsalogo.jpg"
@@ -42,3 +43,6 @@ exclude:
  - tools
  - .timeline.txt
  - README.md
+ - _thumbnails
+ - _pretzel
+ - _gallerydata

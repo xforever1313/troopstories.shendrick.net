@@ -65,6 +65,27 @@ void BuildPretzel()
         CopyFiles( files, Directory( pluginDir ) );
     }
 
+    // Move Magick.NET
+    {
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/Magick.NET*" );
+        CopyFiles( files, Directory( pluginDir ) );
+
+        if( IsRunningOnWindows() )
+        {
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/win-x64/native/Magick.Native*" );
+        }
+        else if( IsRunningOnLinux() )
+        {
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/linux-x64/native/Magick.Native*" );
+        }
+        else if( IsRunningOnMacOs() )
+        {
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/osx-x64/native/Magick.Native*" );
+        }
+
+        CopyFiles( files, Directory( pluginDir ) );
+    }
+
     // Move ActivityPub
     {
         FilePathCollection files = GetFiles( "./_pretzel/src/ActivityStreams/src/KristofferStrube.ActivityStreams/bin/Debug/net6.0/KristofferStrube.ActivityStreams.*" );

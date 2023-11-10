@@ -9,3 +9,4 @@ _site
 .pretzel/
 public/
 _plugins/
+_thumbnails

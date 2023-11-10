@@ -6,7 +6,7 @@ comments: true
 category: "Summer Camp"
 description: "The first time I was scared while camping"
 tags: [2000, Boyhaven, Creeper, ghost, ghost stories, Rob, Summer Camp, trolley, webelos, Year 2000]
-people: [Roger]
+people: [Rob]
 ---
 
 <img src="/static/img/badges/CampBoyhaven_2000.png" alt="2000 Boyhaven Badge" height="250" width="250" class="alignleft"/>

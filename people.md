@@ -68,8 +68,28 @@ Chris... while he is okay today, he wasn't very well liked him back in scouts.  
 
 Matt M was Mr Night's son.
 
+## Generation 4
+
+### Alex
+
+### Nate
+
+### Jason
+
+### Ted
+
+### Will N
+
+## Generation 5
+
+### Mike P
+
 ## Adult Leaders
 
 ### Mr. M
 
 Mr. M was the second scoutmaster I had.
+
+### Mr. N
+
+Mr. N was the third scoutmaster I had.  He was a former marine, and was also no-nonsense.  He got on my nerves sometimes, but he was a good scoutmaster.  He was also Will's dad.

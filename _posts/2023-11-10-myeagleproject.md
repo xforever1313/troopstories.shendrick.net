@@ -6,7 +6,7 @@ comments: true
 category: "Eagle Projects"
 description: "All about my Eagle Scout project, which was building a chain railing at my church."
 tags: [2009, Year 2009, Chain, Church, Eagle, Photos, Project, Railing, Tree]
-people: [Alex, Brett, Ian, Jason, Mike, Mr. N, Nate, Rob, Seth, Will]
+people: [Alex, Brett, Ian, Jason, Mike P, Mr. N, Nate, Rob, Seth, Will N]
 image_gallery: "_gallerydata/eagle_project.xml"
 ---
 

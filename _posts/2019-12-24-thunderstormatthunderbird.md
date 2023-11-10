@@ -6,7 +6,7 @@ comments: true
 category: "Summer Camp"
 description: "This was the scariest moment in my scouting career."
 tags: [2003, Summer Camp, Rotary, Year 2003, Thunderstorm, Thunderbird, Tornado]
-people: [Jake, Seth, Steve, Rodger]
+people: [Jim, Seth, Old Seth, Rob]
 ---
 
 It was my second year of Summer Camp as a scout.  We were at Camp Rotary, but this time around, we were put in a campsite very far away from the center of camp; a campsite called Thunderbird.  The previous year we were in the Algonquin campsite.  One nice thing about Algonquin is that it was convenient.  It was a short walk away to the dining hall, the trail to the water-front was basically a driveway, so it was an easy walk.  Thunderbird, meanwhile, was far away from practically everything.  We had to leave the campsite very early in order to make it on time to places.  We rarely came back to the site because there just wasn't enough time between activities.  The trail to the site was also what you would imagine a standard hiking trail would look like: Narrow, bumpy, and full of tree roots.
@@ -17,15 +17,15 @@ Thunderbird, however, was a nice campsite, despite its seclusion.  However, it w
 
 During the first day of camp, the staff talked about the safety instructions.  They sounded a few different types of sirens.  One of the sirens stood for there was an unaccounted for swimmer, and the staff have to dive into the water to search for them.  One of the other sirens that sounded represented bad weather.  If we heard this siren, we had to seek shelter.
 
-The next day, we were back in the campsite.  I don't remember how many people were in the campsite, but I do know there was at least myself, Steve, and Rodger.  The campsite wasn't fully isolated from the outside world, there was a road relatively close by.  That's when we heard a siren.  
+The next day, we were back in the campsite.  I don't remember how many people were in the campsite, but I do know there was at least myself, Old Seth, and Rob.  The campsite wasn't fully isolated from the outside world, there was a road relatively close by.  That's when we heard a siren.  
 
-However, anyone with halfway-decent sense of hearing could tell that this was not from the loud-speakers.  This was from a actual emergency vehicle from a nearby road.  So Rodger and I ignored it.
+However, anyone with halfway-decent sense of hearing could tell that this was not from the loud-speakers.  This was from a actual emergency vehicle from a nearby road.  So Rob and I ignored it.
 
-Steve then comes over and says "Don't you guys hear the siren! That means bad weather.  Get under the pavilion".  Roger and I look at each other, dumbfounded.  Yes, it was sprinkling outside, but the weather was obviously not severe.  Also, _the sirens weren't even the same ones that meant "severe weather"_.  But Steve outranked us, so we complied.  After several minutes of sitting under the pavilion, Steve lets us go.
+Old Seth then comes over and says "Don't you guys hear the siren! That means bad weather.  Get under the pavilion".  Roger and I look at each other, dumbfounded.  Yes, it was sprinkling outside, but the weather was obviously not severe.  Also, _the sirens weren't even the same ones that meant "severe weather"_.  But Old Seth outranked us, so we complied.  After several minutes of sitting under the pavilion, Old Seth lets us go.
 
-Of course, we had to make fun of him behind his back after that.  When a rain drop fell, Rodger would look at me and said "Seth, look out, a drop!  Its severe weather!  Take shelter!".  We laughed.
+Of course, we had to make fun of him behind his back after that.  When a rain drop fell, Rob would look at me and said "Seth, look out, a drop!  Its severe weather!  Take shelter!".  We laughed.
 
-One thing we didn't realize yet was that Steve wasn't wrong, we was just a few days off.
+One thing we didn't realize yet was that Old Seth wasn't wrong, we was just a few days off.
 
 ## The Storm
 
@@ -39,7 +39,7 @@ So... remember... Thunderbird was the furthest campsite away from everything.  T
 
 So, we begin our wet trek through the woods to shelter.  The closet shelter was the Seneca lodge; which had a basement.  Just thinking back through this walk through the woods, I remember all of our ponchos of various colors blowing around in the wind.  The trees were dimly illuminated by our lanterns and flashlights, but was otherwise pitch black.  The only other light we saw was when lightning struck, and for a brief second, it was like daylight.  It was spooky, we walked these trails every day, but at night it looked completely unfamiliar.  We were all afraid, including the adults.
 
-The trails were basically a stream because of all of the rain.  Some spots of it were so deep, they seemingly became small ponds.  In spite of our terror, however, we managed to have one funny moment.  Jake wore white New Balance sneakers.  He took a mis-step into a really deep muddy puddle.  When he took another step, his shoe came off.  He laughs to himself, but then starts to notice that his shoe is starting to sink into the mud.  "Oh Crap!" he says as he stumbles to grab his shoe and puts it back on.  Yeah, his shoes weren't white anymore after that.
+The trails were basically a stream because of all of the rain.  Some spots of it were so deep, they seemingly became small ponds.  In spite of our terror, however, we managed to have one funny moment.  Jim wore white New Balance sneakers.  He took a mis-step into a really deep muddy puddle.  When he took another step, his shoe came off.  He laughs to himself, but then starts to notice that his shoe is starting to sink into the mud.  "Oh Crap!" he says as he stumbles to grab his shoe and puts it back on.  Yeah, his shoes weren't white anymore after that.
 
 After what seems like hours during the most terrifying walk in my life, we arrive at the Seneca lodge.  We then hurry into the basement.  The basement is full of bunks that we all sat on, waiting for the storm to pass.  There were scouts from several other sites down there as well.  I don't know if the entire camp was in the basement, but we were very cramped down there.  The camp staff start singing songs to pass the time and calm us down (it didn't work, at least on me).
 
@@ -49,7 +49,7 @@ It wasn't until I got home when I realized just how bad it was.  My mom said the
 
 ## Lessons Learned
 
-We did not go back to the Thunderbird campsite the following year.  I think the second the storm cleared, our scout masters requested the Algonquin campsite for the next year.  Its perhaps a good thing we changed sites.  There was another (though not as bad) storm that hit the following year.  But, Algonquin was a 100 yard walk away from the handicraft lodge, not half a mile from anything.  Jake told me that during this storm, when thunder rumbled, he blinked, opened his eyes, and I was gone, running for the handicraft lodge (I guess I was still scarred from the previous year).  The troop hung out there until the storm cleared.
+We did not go back to the Thunderbird campsite the following year.  I think the second the storm cleared, our scout masters requested the Algonquin campsite for the next year.  Its perhaps a good thing we changed sites.  There was another (though not as bad) storm that hit the following year.  But, Algonquin was a 100 yard walk away from the handicraft lodge, not half a mile from anything.  Jim told me that during this storm, when thunder rumbled, he blinked, opened his eyes, and I was gone, running for the handicraft lodge (I guess I was still scarred from the previous year).  The troop hung out there until the storm cleared.
 
 Our troop from then on took safety during storms _more_ seriously.  I remember a few years later at Camp Wakpominee, our scout masters took us to the dining hall during a storm, which raised some eyebrows from the staff, wondering why we came.  Our scout master told them "if we were in the middle of nowhere, we would have to ride the storm out.  But we are not in the middle of nowhere now, aren't we? There's shelter here, why take the risk of being exposed?".
 

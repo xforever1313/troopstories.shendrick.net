@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ImageGallery ImageDir="static/img/galleries/eagle_project" ThumbnailOutputDir="static/img/galleries/eagle_project/thumbnails/" ThumbnailScale="0.25">
+    <Image FileName="before.jpg">
+        <Alt>A paved path going down the middle of some grass.  To the left is a telephone pole.</Alt>
+        <Caption>Before any work was done.</Caption>
+    </Image>
+    <Image FileName="before2.jpg">
+        <Alt>A patch of grass, but a lot of bare spots within.</Alt>
+        <Caption>Garden before work was done.</Caption>
+    </Image>
     <Image FileName="EagleProject3_0005.jpg">
         <Alt>Five scouts posing for a photo.  The one of the left is holding a phone.  One in the middle is holding a shovel, ready to dig.  The one on the right is pointing a hose at the camera.</Alt>
         <Caption>(Left to right) Jason, Mike, Ian, Alex, and Will ready to help out.</Caption>
@@ -79,5 +87,13 @@
     <Image FileName="EagleProject3_0004.jpg">
         <Alt>Me, Brett, and Rob holding shovels filling in a whole that contains a red tree.  They are standing on dirt, and smiling.</Alt>
         <Caption>Brett (left), Me (middle), and Robbie (right) filling the hole for the tree.</Caption>
+    </Image>
+    <Image FileName="final_1.jpg">
+        <Alt>A chain railing to the left of a path.  To the left is a garden with a red tree in it.</Alt>
+        <Caption>Work completed!</Caption>
+    </Image>
+    <Image FileName="final_2.jpg">
+        <Alt>A chain railing to the left of a path.  To the left is a garden with a red tree in it.</Alt>
+        <Caption>Work completed, from another angle.</Caption>
     </Image>
 </ImageGallery>

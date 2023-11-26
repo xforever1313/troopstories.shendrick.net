@@ -1,6 +1,6 @@
 string target = Argument( "target", "taste" );
 
-const string pretzelExe = "./_pretzel/src/Pretzel/bin/Debug/net6.0/Pretzel.dll";
+const string pretzelExe = "./_pretzel/src/Pretzel/bin/Debug/net8.0/Pretzel.dll";
 const string pluginDir = "./_plugins";
 const string categoryPlugin = "./_plugins/Pretzel.Categories.dll";
 const string extensionPlugin = "./_plugins/Pretzel.SethExtensions.dll";
@@ -55,32 +55,32 @@ void BuildPretzel()
 
     // Move Pretzel.Categories.
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.Categories/bin/Debug/net6.0/Pretzel.Categories.*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.Categories/bin/Debug/net8.0/Pretzel.Categories.*" );
         CopyFiles( files, Directory( pluginDir ) );
     }
 
     // Move Pretzel.SethExtensions
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/Pretzel.SethExtensions.*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/Pretzel.SethExtensions.*" );
         CopyFiles( files, Directory( pluginDir ) );
     }
 
     // Move Magick.NET
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/Magick.NET*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/Magick.NET*" );
         CopyFiles( files, Directory( pluginDir ) );
 
         if( IsRunningOnWindows() )
         {
-            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/win-x64/native/Magick.Native*" );
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/runtimes/win-x64/native/Magick.Native*" );
         }
         else if( IsRunningOnLinux() )
         {
-            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/linux-x64/native/Magick.Native*" );
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/runtimes/linux-x64/native/Magick.Native*" );
         }
         else if( IsRunningOnMacOs() )
         {
-            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net6.0/runtimes/osx-x64/native/Magick.Native*" );
+            files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/runtimes/osx-x64/native/Magick.Native*" );
         }
 
         CopyFiles( files, Directory( pluginDir ) );
@@ -88,7 +88,7 @@ void BuildPretzel()
 
     // Move ActivityPub
     {
-        FilePathCollection files = GetFiles( "./_pretzel/src/ActivityStreams/src/KristofferStrube.ActivityStreams/bin/Debug/net6.0/KristofferStrube.ActivityStreams.*" );
+        FilePathCollection files = GetFiles( "./_pretzel/src/Pretzel.SethExtensions/bin/Debug/net8.0/KristofferStrube.ActivityStreams.*" );
         CopyFiles( files, Directory( pluginDir ) );
     }
 

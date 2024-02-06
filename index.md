@@ -8,7 +8,7 @@ pageindex: 0
 
 ## Welcome
 
-This site contains stories from alumni of Troop 53 in Castleton-On-Hudson NY!
+This site contains stories from an alumni of Troop 53 in Castleton-On-Hudson NY!
 
 This is *NOT* the official site of BSA Troop 53.  If you are looking for the official website, the domain, [bsatroop53.com](http://bsatroop53.com) expired several years ago, and no one from the troop has maintained the site.  However, links to an archived version of the site can be found there.
 
